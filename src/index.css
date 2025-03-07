@@ -1,0 +1,82 @@
+.calculator {
+  width: 320px;
+  margin: 100px auto;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.calculator-display {
+  background-color: #333;
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  padding: 20px;
+  font-family: "Courier New", monospace;
+}
+
+.calculator-keypad {
+  display: flex;
+}
+
+.input-keys {
+  width: 75%;
+}
+
+.function-keys {
+  display: flex;
+}
+
+.digit-keys {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calculator-keypad button {
+  height: 65px;
+  border: none;
+  border-right: 1px solid #999;
+  border-bottom: 1px solid #999;
+  font-size: 24px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.2s;
+}
+
+.calculator-keypad button:hover {
+  background-color: #eaeaea;
+}
+
+.calculator-keypad button:active {
+  background-color: #ddd;
+}
+
+.digit-keys button {
+  width: 33.3%;
+}
+
+.function-keys button {
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.key-clear {
+  background-color: #f5923e !important;
+  color: white;
+}
+
+.operator-keys {
+  width: 25%;
+}
+
+.operator-keys button {
+  width: 100%;
+  background-color: #f5923e;
+  color: white;
+}
+
+.operator-keys button:hover {
+  background-color: #f47c1c !important;
+}
