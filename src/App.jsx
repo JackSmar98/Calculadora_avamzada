@@ -86,7 +86,7 @@ function App() {
           <div className="input-keys">
             <div className="function-keys">
               <button className="key-clear" onClick={clearDisplay}>
-                AC
+                AC-
               </button>
             </div>
             <div className="digit-keys">
